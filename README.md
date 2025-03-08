@@ -3,7 +3,7 @@
 ## Task1
 
 用向量空间法表示文本，原始文本和词袋和 IDF 存在类 Documents 的实例中，再将 doc 载入自定义的 Dataset ，送入 net 中计算。
-代码位于(./Task)[https://github.com/ThengyAndrew/nlp-beginner/tree/main/Task1], 目前最新版本为 (./Task/Ver1.1.ipynb)[]
+代码位于 [./Task](https://github.com/ThengyAndrew/nlp-beginner/tree/main/Task1) , 目前最新版本为 [./Task/Ver1.1.ipynb]().
 
 ### Documents & Document & Bag & Queries
 
