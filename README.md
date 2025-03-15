@@ -3,7 +3,7 @@
 ## Task1
 
 用向量空间法表示文本，原始文本和词袋和 IDF 存在类 Documents 的实例中，再将 doc 载入自定义的 Dataset ，送入 net 中计算。
-代码位于 [./Task](https://github.com/ThengyAndrew/nlp-beginner/tree/main/Task1) , 目前最新版本为 [./Task/Ver1.1.ipynb](https://github.com/ThengyAndrew/nlp-beginner/blob/main/Task1/Ver1.1.ipynb).
+代码位于 [./Task1](https://github.com/ThengyAndrew/nlp-beginner/tree/main/Task1) , 目前最新版本为 [./Task1/Ver1.1.ipynb](https://github.com/ThengyAndrew/nlp-beginner/blob/main/Task1/Ver1.1.ipynb).
 
 ### Documents & Document & Bag & Queries
 
@@ -17,3 +17,11 @@
 ### 训练结果
 
 无论怎样调整 ls, 激活函数, batch_size, 隐藏层神经元数量, 最终 test_acc 都无法超过 0.4, 在极少情况下可能达到 0.5
+
+
+## Task2
+
+代码位于 [./Task2](https://github.com/ThengyAndrew/nlp-beginner/tree/main/Task2) , 目前最新版本为 [./Task2/Ver1.1.ipynb](https://github.com/ThengyAndrew/nlp-beginner/blob/main/Task2/Ver1.1.ipynb).
+
+用 N-gram 表示原始文本，通过 word-embedding 降维后输入 CNN 中进行分类。  
+通过提高 epoch_num 在 train 数据集上的 loss 可以降低至 0.001 ，但是引入 test 数据集测试后发现 test_loss 高达 1.5，产生了过拟合。为减少过拟合引入了 dropout 层，但效果不佳，最终 test_loss 仍然在 1.5 上下。
